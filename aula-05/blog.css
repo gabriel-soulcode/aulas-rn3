@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+
+.art-post .art-titulo {
+    color: coral;
+}
+
+.art-post .art-autor {
+    color: gray;
+}
+
+#titulo {
+    color: green;
+}
+
+.art-link {
+    color: aqua;
+}
+
+.art-link:hover {
+    color: darkcyan;
+}
+
+.art-link:visited {
+    color: purple;
+}
+
+.art-link:active {
+    color: crimson;
+}
+
+.art-link:focus {
+    border: 2px solid violet;
+}
+
+#titulo:hover {
+    background: pink;
+}
