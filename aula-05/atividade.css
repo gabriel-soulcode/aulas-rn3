@@ -1,0 +1,27 @@
+.cor-fundo {
+    background-color: darkgrey;
+}
+
+#titulo {
+    color: blue;
+}
+
+.item-lista {
+    color: orange;
+}
+
+.item-lista:hover {
+    color: red;
+}
+
+footer a {
+    color: chartreuse;
+}
+
+footer a:visited {
+    color: purple;
+}
+
+footer:hover {
+    border: 2px dashed black;
+}
