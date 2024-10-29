@@ -1,0 +1,33 @@
+body {
+    background-color: azure;
+    margin: 0px;
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    box-shadow: 5px 0px 15px gray;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+section {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+section p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+section h2 {
+    font-style: italic;
+}
+
+footer span {
+    font-weight: 600;
+}
