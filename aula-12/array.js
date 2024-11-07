@@ -35,3 +35,18 @@ console.log("------------");
 for (let nome of nomes) { // for each
     console.log("Bem-vindo(a)", nome);
 }
+
+console.log("**************");
+
+const frutas = ["Maça", "Laranja", "Morango", "Limão", "Pera", "Cajarana"];
+frutas.push("Ciriguela")
+frutas.pop(); // remove o ultimo elemento da lista
+console.log(frutas);
+
+console.log(frutas.includes("Caju")); // false
+console.log(frutas.includes("Maça")); // true
+console.log(frutas.indexOf("Limão")); // 3
+console.log(frutas.indexOf("Goiaba")); // -1
+
+frutas.splice(2, 1); // remover o Morango da lista
+console.log(frutas);
