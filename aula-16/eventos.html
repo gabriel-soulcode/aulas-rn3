@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+
+    <button id="btn">Clique</button>
+
+    <h2 id="nome">...</h2>
+    <input type="text" id="campo-nome">
+    
+    <script>
+        const btn = document.querySelector("#btn");
+        
+        btn.addEventListener("click", () => {
+            btn.innerText = "CLICOU!";
+        });
+
+        btn.addEventListener("dblclick", () => {
+            btn.innerText = "CLICOU 2x";
+            window.alert("Você clicou duas vez no botão.");
+        });
+
+        const nome = document.querySelector("#nome");
+        const campoNome = document.querySelector("#campo-nome");
+
+        campoNome.addEventListener("keyup", () => {
+            const text = campoNome.value;
+            nome.innerText = text;
+        });
+        
+    </script>
+</body>
+</html>
